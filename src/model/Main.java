@@ -126,7 +126,7 @@ public class Main {
                 String cnpj = scanner.nextLine();
 
                 pessoaJuridica.setNome(nome);
-                pessoaJuridica.setCnpj(cnpj);
+                pessoaJuridica.setCnpj (cnpj);
                 repoJuridica.alterar(pessoaJuridica);
             } else {
                 System.out.println("Pessoa Jurídica não encontrada.");
